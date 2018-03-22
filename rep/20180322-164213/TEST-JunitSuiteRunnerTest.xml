@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-4T6P0FJ" name="JunitSuiteRunnerTest" skipped="0" tests="2" time="39.562" timestamp="2018-03-22T20:42:16">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-4T6P0FJ" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="start.time" value="03/22/2018 04:42 PM" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="test.reportsDir" value="rep/20180322-164213" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes" />
+    <property name="ws.home" value="C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework" />
+    <property name="env.COMPUTERNAME" value="DESKTOP-4T6P0FJ" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="TODAY" value="March 22 2018" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\QA Training\Download Folder\apache-ant-1.10.2" />
+    <property name="java.runtime.version" value="1.8.0_161-b12" />
+    <property name="env.HOMEPATH" value="\Users\owner" />
+    <property name="test.classpath" value="C:\SeleniumJars\dom4j-1.1.jar:C:\SeleniumJars\jdom-2.0.6-contrib.jar:C:\SeleniumJars\jdom-2.0.6-javadoc.jar:C:\SeleniumJars\jdom-2.0.6-junit.jar:C:\SeleniumJars\jdom-2.0.6-sources.jar:C:\SeleniumJars\jdom-2.0.6.jar:C:\SeleniumJars\junit-4.12.jar:C:\SeleniumJars\log4j-1.2.14.jar:C:\SeleniumJars\poi-3.6-20091214.jar:C:\SeleniumJars\poi-ooxml-3.6-20091214.jar:C:\SeleniumJars\poi-ooxml-schemas-3.6-20091214.jar:C:\SeleniumJars\selenium-server-standalone-2.53.1.jar:C:\SeleniumJars\xmlbeans-2.3.0.jar" />
+    <property name="user.name" value="Swaminarayan" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin" />
+    <property name="ant.project.default-target" value="usage" />
+    <property name="ant.project.name" value="JunitProject2" />
+    <property name="DSTAMP" value="20180322" />
+    <property name="java.version" value="1.8.0_161" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\owner\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_161\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.APPDATA" value="C:\Users\owner\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.=::" value="::\" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.161-b12" />
+    <property name="env.USERPROFILE" value="C:\Users\owner" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\QA Training\Download Folder\apache-ant-1.10.2\lib" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_161" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\owner\AppData\Local\Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\owner" />
+    <property name="test.dest" value="C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework/build" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.Cygwin64_Home" value="C:\cygwin64" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\QA Training\Download Folder\apache-ant-1.10.2\bin;C:\QA Training\Download Folder\apache-maven-3.5.2\bin;C:\QA Training\Download Folder\allure-2.6.0\bin;C:\Program Files\Git\cmd;C:\cygwin64\bin;C:\Users\owner\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.2 compiled on February 3 2018" />
+    <property name="java.class.path" value="C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework\build;C:\SeleniumJars\dom4j-1.1.jar;C:\SeleniumJars\jdom-2.0.6-contrib.jar;C:\SeleniumJars\jdom-2.0.6-javadoc.jar;C:\SeleniumJars\jdom-2.0.6-junit.jar;C:\SeleniumJars\jdom-2.0.6-sources.jar;C:\SeleniumJars\jdom-2.0.6.jar;C:\SeleniumJars\junit-4.12.jar;C:\SeleniumJars\log4j-1.2.14.jar;C:\SeleniumJars\poi-3.6-20091214.jar;C:\SeleniumJars\poi-ooxml-3.6-20091214.jar;C:\SeleniumJars\poi-ooxml-schemas-3.6-20091214.jar;C:\SeleniumJars\selenium-server-standalone-2.53.1.jar;C:\SeleniumJars\xmlbeans-2.3.0.jar;C:\QA Training\Download Folder\apache-ant-1.10.2\lib\ant-launcher.jar;C:\QA Training\Download Folder\apache-ant-1.10.2\lib\ant.jar;C:\QA Training\Download Folder\apache-ant-1.10.2\lib\ant-junit.jar;C:\QA Training\Download Folder\apache-ant-1.10.2\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner JunitSuiteRunnerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework\rep\20180322-164213\TEST-JunitSuiteRunnerTest.xml crashfile=C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework\junitvmwatcher7758601303579439099.properties propsfile=C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework\junit6930782424460675124.properties" />
+    <property name="TSTAMP" value="1642" />
+    <property name="ws.jars" value="C:\SeleniumJars" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.LOGONSERVER" value="\\DESKTOP-4T6P0FJ" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.file.JunitProject2" value="C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework\build.xml" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.OneDrive" value="C:\Users\owner\OneDrive" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\QA Training\Download Folder\apache-ant-1.10.2" />
+    <property name="java.io.tmpdir" value="C:\Users\owner\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="4501" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="test.src" value="C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework/src" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" clean compile run" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="env.ALLURE_HOME" value="C:\QA Training\Download Folder\allure-2.6.0" />
+    <property name="user.dir" value="C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\owner\AppData\Local" />
+    <property name="env.MAVEN_HOME" value="C:\QA Training\Download Folder\apache-maven-3.5.2" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ANT" value="C:\QA Training\Download Folder\apache-ant-1.10.2/bin/ant.bat" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\QA Training\Download Folder\apache-ant-1.10.2\bin;C:\QA Training\Download Folder\apache-maven-3.5.2\bin;C:\QA Training\Download Folder\allure-2.6.0\bin;C:\Program Files\Git\cmd;C:\cygwin64\bin;C:\Users\owner\AppData\Local\Microsoft\WindowsApps;" />
+    <property name="basedir" value="C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="TODAY_MY" value="20180322-164213" />
+    <property name="ant.core.lib" value="C:\QA Training\Download Folder\apache-ant-1.10.2\lib\ant.jar" />
+    <property name="env.USERNAME" value="Swaminarayan" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.file.type.JunitProject2" value="file" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="env.USERDOMAIN" value="DESKTOP-4T6P0FJ" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\QA Training\Home_Workspace\fullExercises\Basic_JUnit_Framework" />
+    <property name="ant.project.invoked-targets" value="clean,compile,run" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="LoginTest" name="verifylLoginWithInvalidPassword" time="22.419" />
+  <testcase classname="LoginTest" name="verifylLoginWithInvalidEmail" time="16.425" />
+  <system-out><![CDATA[Invalid Password Error Message : Wrong password. Try again or click Forgot password to reset it.
+Invalid Email Error Message : Couldn't find your Google Account
+]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+]]></system-err>
+</testsuite>
